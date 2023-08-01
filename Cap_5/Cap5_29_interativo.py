@@ -1,4 +1,3 @@
-
 def nome(lst):
     lst_nome = []
     lst_sobre = []
