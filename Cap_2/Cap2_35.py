@@ -1,0 +1,62 @@
+import turtle
+
+s = turtle.Screen()
+t = turtle.Turtle()
+t2 = turtle.Turtle()
+t3 = turtle.Turtle()
+
+while True:
+    #quadra
+    t.penup()
+    t.goto(-300,0)
+    t.forward(280)
+    t.pendown()
+    t.left(90)
+    t.forward(150)
+    t.left(90)
+    t.forward(280)
+    t.left(90)
+    t.forward(150)
+    t.left(90)
+    t.forward(280)
+
+    #circulos da quandra
+    t2.penup()
+    t2.goto(-160,50)
+    t2.pendown()
+    t2.circle(25)
+    t2.penup()
+    t2.goto(-75,60)
+    t2.pendown()
+    t2.circle(15)
+    t2.penup()
+    t2.goto(-235,60)
+    t2.pendown()
+    t2.circle(15)
+
+    #linhas da quadra
+    t3.penup()
+    t3.goto(-160,0)
+    t3.pendown()
+    t3.left(90)
+    t3.forward(150)
+    t3.penup()
+    t3.goto(-75,60)
+    t3.left(270)
+    t3.pendown()
+    t3.forward(55)
+    t3.penup()
+    t3.goto(-75,90)
+    t3.pendown()
+    t3.forward(55)
+    t3.penup()
+    t3.goto(-235,60)
+    t3.left(180)
+    t3.pendown()
+    t3.forward(65)
+    t3.penup()
+    t3.goto(-235,90)
+    t3.pendown()
+    t3.forward(65)
+
+
